@@ -1,0 +1,127 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.container {
+  text-align: center;
+  color:#333 ;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://wallpaper.dog/large/20475626.jpg);
+  background-size: cover;
+  background-position: center;
+  
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+
+}
+
+p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blank,
+.other {
+  width: 100%;
+  min-height: 60vh;
+  background-color:#999999;
+}
+.blank h3{
+    text-align: center;
+    color: white;
+    padding: 200px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.second {
+  background-image:url(https://c4.wallpaperflare.com/wallpaper/738/312/929/tom-and-jerry-meet-sherlock-holmes-desktop-wallpaper-hd-resolution-1920%C3%971080-wallpaper-preview.jpg);
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1em;
+}
+
+
+.card > a {
+  margin-bottom: 2em;
+}
+
+.item {
+  display: flex;
+
+  background-color: white;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  height: 600px;
+  width: 300px;
+}
+
+.img {
+  width: 90%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+.img-first {
+  background-image: url(https://pic-bstarstatic.akamaized.net/ugc/a103440c5d084a473049495ac844b39dda6266ab.png);
+}
+
+.img-second {
+  background-image: url(https://images.moviesanywhere.com/e0708d2e8ab020cfa55372e8949bc385/b9ce327f-8e8f-4851-a0eb-2e1ce48e7ceb.jpg);
+}
+
+.img-third {
+  background-image: url(https://pic-bstarstatic.akamaized.net/ugc/a05e3b099f482c446cd82294bf804ef9.jpg);
+}
+
+.second {
+  flex-direction: row;
+  gap: 1.6em;
+}
